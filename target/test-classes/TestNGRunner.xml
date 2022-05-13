@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name= "Suite">
+<test name = "Test">
+<parameter name = "browserType" value="chrome"/>
+<parameter name = "url" value="https://www.imdb.com/"/>
+<classes>
+<class name = "movies.automate.details.testcases.Do_SmokeTest" />
+</classes>
+</test>
+<test name = "Test1">
+<parameter name = "browserType" value="chrome"/>
+<parameter name = "url" value="https://en.wikipedia.org/wiki/Main_Page"/>
+<classes>
+<class name = "movies.automate.details.testcases.Do_SmokeTestForWiki" />
+</classes>
+</test>
+</suite>

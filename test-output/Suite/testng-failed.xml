@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="url" value="https://en.wikipedia.org/wiki/Main_Page"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="movies.automate.details.testcases.Do_SmokeTestForWiki">
+        <methods>
+          <include name="movie_deatils_search" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- movies.automate.details.testcases.Do_SmokeTestForWiki -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
