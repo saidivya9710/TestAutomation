@@ -144,19 +144,19 @@
 			<version>1.16</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-		<dependency>
-			<groupId>io.github.bonigarcia</groupId>
-			<artifactId>webdrivermanager</artifactId>
-			<version>3.0.0</version>
-		</dependency>
-
+		
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>4.0.6</version>
 		</dependency>
+		
+	<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.1.1</version>
+    </dependency>
 		
 		<dependency>
 			<groupId>org.freemarker</groupId>
@@ -190,7 +190,11 @@
     <scope>provided</scope>
 </dependency> 
 
-
+<dependency>
+<groupId>net.serenity-bdd</groupId>
+<artifactId>serenity-core</artifactId>
+<version>1.9.13</version>
+</dependency>
 
 	</dependencies>
 </project>
